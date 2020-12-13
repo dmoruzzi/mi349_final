@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
+
+html, body {
+    margin: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    color: #222;
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#about {
+    background: url(../images/about/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#achievement {
+    background: url(../images/achievement/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+img {
+    width: 100%;
+    shape-rendering: auto;
+}
+
+h1 {
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+h2{
+    margin: 0;
+    font-weight: 200;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15% auto 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+    padding-bottom: 5%;
+}
+
+.card .avatar {
+    width: 9%;
+    border-radius: 50%;
+    margin-top: -2%;
+    border: 3px solid #504649;
+}
+
+#about-h1 {
+	color: red;
+    padding-top: 3%;
+}
+
+#achievement-h1 {
+	color: red;
+    padding-top: 3%;
+}
+
+#achievement-card {
+    width: 50%;
+    box-shadow: rgba(0,2,0, .5) 0 0 80px;
+}
+
+#achievement-paragraph {
+	font-size: 150%;
+    margin: 0 20% 0 20%;
+}
+
+#about-card {
+    box-shadow: rgba(0,2,0, .5) 0 0 80px;
+}
+
+#about-paragraph {
+    margin: 0 30% 0 30%;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 2%;
+    display: inline-block;
+    padding: 1%;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #efefef;
+    font-size: 150%;
+    letter-spacing: 7px;
+    padding: 1% 0 1% 0;
+    font-weight: 100;
+}
+
+
+#business-card-link, #about-link, #achievement-link, #resume-link {
+    text-shadow: 0 0 2px #272727;
+    transition: text-shadow ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+
+footer a {
+    text-decoration: none;
+}
+
+
+footer a:link {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
